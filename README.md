@@ -1,10 +1,16 @@
 # 🛡️ Nik Gray – Cybersecurity Portfolio
 
-Hi, I’m Nik — a cybersecurity sales pro turned technical learner. This GitHub is a living portfolio where I’m documenting my hands-on experience across key cybersecurity domains like email security, phishing forensics, OS fundamentals, and SOC-style analysis.
+Hi, I’m Nik — a cybersecurity sales pro turned technical learner. This GitHub is a living portfolio where I document hands-on experience across key cybersecurity domains like email security, phishing forensics, Linux and Windows hardening, SOC-style analysis, and insider threat response.
 
 ---
 
 ## 🚨 Real-World Labs (TryHackMe, Capture-the-Flag, Practical Labs)
+
+### ✅ Disgruntled IT Logic Bomb Investigation (Insider Threat | Linux Forensics)
+- Investigated a logic bomb planted by an insider on a corporate Linux system
+- Traced user command history, privilege escalation, and cron-triggered backdoor
+- Identified `bomb.sh` disguised as `/bin/os-update.sh` and scheduled via crontab
+- **Skills demonstrated:** Linux forensics, cron analysis, IOC extraction, insider threat detection
 
 ### ✅ The Greenholt Phish (Phishing & Email Forensics)
 - Analyzed a suspicious email forwarded to the SOC team
@@ -25,54 +31,67 @@ Hi, I’m Nik — a cybersecurity sales pro turned technical learner. This GitHu
 - **Skills demonstrated:** Linux CLI, hardening basics, log review
 
 ### ✅ Networking, DNS, HTTP & Web Protocols
-- Understood how DNS queries resolve
-- Investigated HTTP requests/responses using tools like Wireshark and curl
+- Understood how DNS queries resolve and HTTP request lifecycles
+- Investigated packet-level data using tools like Wireshark and curl
 - **Skills demonstrated:** network fundamentals, protocol analysis, packet inspection
 
 ---
 
 ## 🛠️ Tools & Notes
+
 Organized notes and commands by category:
-- 🔐 Email Security & Threat Intel
-- 🪟 Windows Sysinternals & Logs
-- 🐧 Linux Essentials & Bash Scripts
-- 🌐 Network Capture & Traffic Analysis
-- 📁 Markdown Documentation & Hashing Tools
+
+- 🔐 Email Security & Threat Intel  
+- 🪟 Windows Sysinternals & Logs  
+- 🐧 Linux Essentials & Bash Scripts  
+- 🌐 Network Capture & Traffic Analysis  
+- 🧪 Hashing, Forensics, and IOC Triage  
+- 📁 Markdown Documentation & Technical Reporting  
 
 ---
 
 ## 🎯 Goals
-- Transition from pre-sales to technical security engineering
-- Build deep expertise in email security, phishing detection, and MSP-focused defense
-- Document my learning in public to show consistency, curiosity, and capability
+
+- Transition from cybersecurity pre-sales to hands-on engineering
+- Build deep expertise in email security, phishing detection, and MSP defense architecture
+- Document my learning in public to show consistency, curiosity, and technical capability
 
 ---
 
 ## 📁 Structure
-- `greenholt-phish/` → EML analysis & screenshots
-- `windows-fundamentals/` → Notes from Windows 10/11 server labs
-- `linux-basics/` → File structure, permissions, common commands
-- `networking-dns-http/` → Protocol breakdowns, tools, notes
+
+- `greenholt-phish/` → EML analysis & screenshots  
+- `logic-bomb-insider-threat/` → Forensic timeline & bash history reconstruction  
+- `windows-fundamentals/` → Notes from Windows 10/11 server labs  
+- `linux-basics/` → File structure, permissions, common commands  
+- `networking-dns-http/` → Protocol breakdowns, tools, notes  
+- `resume/` → PDF resume, project highlights, portfolio summary  
 
 ---
 
 ## 🤝 About Me
-- 8+ years in cyber sales, now going full throttle into technical security
+
+- 11+ years in cybersecurity sales, now going full throttle into my true love- technical security
 - Strength: breaking down complex topics into clear, actionable solutions
-- Focused on becoming the engineer I always wish my sales reps had
+- Passionate about cyber — driven by curiosity, continuous learning, and real-world application
+- Focused on becoming the engineer I would have loved to work with
 
 ---
 
 ## 🔗 Connect
+
 - [LinkedIn](https://www.linkedin.com/in/nik-g-8a246170/)
 - [GitHub](https://github.com/NikGunRay)
-- `resume/` folder coming soon!
+- `resume/` folder now live!
 
 ---
 
 ## 🧪 Investigations & Threat Analysis
 
 - [Greenholt Phish Investigation](./greenholt-phish/README.md)  
-  *Analyzed a phishing email using header forensics, hash analysis, and email infrastructure validation.*
+  *Phishing forensics using headers, origin tracing, and payload analysis*
 
-  > This repo is constantly evolving — check back often for new labs, notes, and walkthroughs.
+- [Disgruntled IT Logic Bomb](./logic-bomb-insider-threat/README.md)  
+  *Insider threat detection via bash history, cron job review, and script forensics*
+
+> This portfolio is constantly evolving — check back often for new labs, notes, and walkthroughs.
