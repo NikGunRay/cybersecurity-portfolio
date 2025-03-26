@@ -38,7 +38,7 @@ An employee from CyberT’s IT department was arrested for operating a phishing 
 
 ## 📖 What I Learned
 
-> “This lab taught me how to trace suspicious Linux activity, analyze logs for privilege escalation, and reverse-engineer a logic bomb scenario using basic CLI tools. It sharpened my ability to investigate real-world sabotage tactics and understand how insider threats hide in plain sight.”
+> This lab taught me how to trace suspicious Linux activity, analyze logs for privilege escalation, and reverse-engineer a logic bomb scenario using basic CLI tools. It sharpened my ability to investigate real-world sabotage tactics and understand how insider threats hide in plain sight.
 
 ---
 
