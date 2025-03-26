@@ -1,83 +1,87 @@
-# 🔧 Security Tools & Notes
+# 🛠️ Security Tools & Notes
 
-This section contains practical notes and summaries from hands-on cybersecurity tools used across labs, challenges, and real-world scenarios.
-# 🔧 Security Tools & Commands I’ve Used
+This folder contains notes on security tools I’ve personally used or explored during hands-on labs, TryHackMe modules, and investigations. It's a living document and reflects tools relevant to my cybersecurity journey — especially as I transition from sales into a technical role.
+
+---
 
 ## 🧪 Recon & Scanning
 
-### Nmap
-- **Used for**: Port scanning, service detection.
-- **Command**: `nmap -sV -A <target>`
+### 🔹 Nmap
+- **Purpose**: Port scanning, service enumeration, OS detection.
+- **Common Command**: `nmap -sV -A <target>`
 
-### Netcat
-- **Used for**: Manual connections, banner grabbing, reverse shells.
-- **Command**: `nc -v <host> <port>`
+### 🔹 Netcat
+- **Purpose**: Manual connections, banner grabbing, reverse shells.
+- **Example**: `nc -v <host> <port>`
 
-### Whois
-- **Used for**: IP/domain ownership (used in phishing analysis).
-- **Command**: `whois <domain>`
+### 🔹 Whois
+- **Purpose**: Domain/IP ownership lookups (used in phishing analysis).
+- **Example**: `whois <domain>`
 
-### Dig
-- **Used for**: DNS queries, troubleshooting.
-- **Command**: `dig @1.1.1.1 <domain>`
+### 🔹 Dig
+- **Purpose**: DNS record querying and troubleshooting.
+- **Example**: `dig @1.1.1.1 <domain>`
 
 ---
 
 ## 🔐 Email Phishing Analysis
 
-### Thunderbird
-- **Used to**: Open `.eml` attachments.
-- **Why**: To investigate phishing attempts visually.
+### 🔹 Thunderbird
+- **Used to**: Open and analyze `.eml` files (used in The Greenholt Phish investigation).
+- **Why**: Review headers, attachments, and body for phishing indicators.
 
-### VirusTotal
-- **Used for**: Scanning file hashes and links.
-- **Workflow**: Hash attachments and look them up.
+### 🔹 VirusTotal
+- **Purpose**: Check file hashes and URLs for known threats.
 
-### MXToolbox
-- **Used to**: Check SPF, DMARC, MX records during phishing cases.
+### 🔹 MXToolbox
+- **Purpose**: Inspect SPF, DKIM, and DMARC records for phishing detection.
 
 ---
 
 ## 🪟 Windows Tools
 
-### MSConfig
-- System configuration and startup debugging.
+### 🔹 MSConfig
+- Troubleshooting startup issues and boot configurations.
 
-### Event Viewer
-- Investigate logon events and system behavior.
+### 🔹 Event Viewer
+- Viewing logs (login attempts, alerts, system events).
 
-### Task Manager / Resource Monitor
-- Live process and resource usage monitoring.
+### 🔹 Task Manager & Resource Monitor
+- Monitor system performance and running processes.
 
 ---
 
-## 🧠 Linux Tools
+## 🐧 Linux CLI Tools
 
-### `top`, `htop`
-- Live process monitoring.
+### 🔹 top / htop
+- Real-time process monitoring.
 
-### `netstat`, `ss`
-- View open connections and ports.
+### 🔹 netstat / ss
+- List network connections and open ports.
 
-### `ip`, `ifconfig`, `ip addr`
-- View network settings.
+### 🔹 ip / ifconfig
+- View or configure network interfaces.
 
 ---
 
 ## 🌐 Web & HTTP
 
-### Curl
-- Used to make manual HTTP requests and test endpoints.
+### 🔹 Curl
+- Make manual HTTP/HTTPS requests.
 
-### Dev Tools (Chrome/Firefox)
-- Viewing HTTP headers, analyzing site behavior.
+### 🔹 Browser Dev Tools
+- Inspect HTTP requests, status codes, and headers.
 
 ---
 
-## 🧪 Other Tools to Explore Later
+## 🧠 Other Tools To Explore Later
 
-- Burp Suite (web testing)
-- Wireshark (packet analysis)
-- Sysinternals Suite (Windows endpoint)
-- Autopsy (forensics)
-- CyberChef (data transformation)
+- 🕷 **Burp Suite** – Web application testing.
+- 🧪 **Wireshark** – Network packet analysis.
+- 💾 **Autopsy** – Digital forensics.
+- 🧰 **Sysinternals Suite** – Windows internals toolkit.
+- 🧙 **CyberChef** – Data transformation & decoding.
+
+---
+
+> ⚡ This list will evolve as I gain deeper technical experience across red and blue team tools. Feel free to fork or reference.
