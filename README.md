@@ -52,9 +52,9 @@ Organized notes and commands by category:
 
 ## 🎯 Goals
 
-- Transition from cybersecurity pre-sales to hands-on engineering
-- Build deep expertise in email security, phishing detection, and MSP defense architecture
-- Document my learning in public to show consistency, curiosity, and technical capability
+- Join a team that builds cool things and makes each other smarter in the process  
+- Keep leveling up through hands-on problem-solving across cloud, network, and endpoint security  
+- Join a team where I can contribute early, learn from experienced engineers, and grow into the kind of teammate others can count on.
 
 ---
 
@@ -74,7 +74,7 @@ Organized notes and commands by category:
 - 11+ years in cybersecurity sales, now going full throttle into my true love- technical security
 - Strength: breaking down complex topics into clear, actionable solutions
 - Passionate about cyber — driven by curiosity, continuous learning, and real-world application
-- Focused on becoming the engineer I would have loved to work with
+- Focused on joining the ranks of the engineers I've had the pleasure to learn and work with
 
 ---
 
