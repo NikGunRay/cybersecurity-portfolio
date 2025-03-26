@@ -1,34 +1,37 @@
 # 🪟 Windows Fundamentals Series (TryHackMe)
 
-This series explores the core components and security mechanisms of the Windows operating system. It was completed through guided labs and hands-on virtual machines via TryHackMe.
+## 🧭 Objective
+Build a strong foundation in Windows operating system architecture, tools, and security features through hands-on TryHackMe labs and virtual machine exercises.
 
----
+## 🧪 Tools & Techniques Used
+- **Built-in Windows Tools**: MSConfig, Task Manager, Resource Monitor, Event Viewer
+- **System Utilities**: `ipconfig`, `netstat`, `hostname`
+- **GUI Interfaces**: Control Panel, Settings, Computer Management
+- **Security Features**: BitLocker, Windows Defender, SmartScreen, Restore Points
 
-### 🧩 Module 1: Windows Basics
-- Navigated the Windows GUI (Desktop, Taskbar, Start Menu, etc.)
-- Explored system file structures (NTFS, System32, etc.)
-- Understood user profiles, permissions, and UAC (User Account Control)
-- Learned about Control Panel, Settings, and Task Manager
+## 🔍 Key Topics Covered
+| Module                  | Highlights                                                                 |
+|-------------------------|---------------------------------------------------------------------------|
+| **Windows Basics**      | GUI navigation, NTFS structure, user profiles, UAC                         |
+| **System Configuration**| MSConfig, Registry Editor, system tools like `msinfo32`, `compmgmt.msc`    |
+| **Security Features**   | BitLocker, Windows Updates, TPM, ransomware protection, restore points     |
 
----
+## 📖 Analysis Summary
+- Explored foundational tools and settings used in Windows administration.
+- Practiced navigating between command-line and GUI interfaces.
+- Understood how security features interact with user privileges and system recovery.
 
-### 🧩 Module 2: Core Tools & Configuration
-- Used MSConfig to troubleshoot boot issues
-- Accessed core system tools like:
-  - Computer Management (`compmgmt.msc`)
-  - System Information (`msinfo32`)
-  - Registry Editor (`regedit`)
-  - Resource Monitor (`resmon`)
-- Ran and interpreted key commands via CMD (e.g., `ipconfig`, `netstat`, `hostname`)
+## 🧠 Skills Demonstrated
+- Windows OS navigation and system analysis
+- Admin tool usage for troubleshooting and diagnostics
+- Command-line utility familiarity
+- Baseline understanding of Windows security layers
 
----
+## 🧰 Real-World Application
+These skills are essential for both red and blue team roles — from recognizing how attackers exploit system defaults to using built-in tools for system hardening or incident response.
 
-### 🧩 Module 3: Windows Security Features
-- Reviewed Windows Update lifecycle and Patch Tuesday strategy
-- Explored Windows Security areas: antivirus, firewall, SmartScreen
-- Understood BitLocker encryption and TPM
-- Investigated system protection (VSS, restore points, ransomware hardening)
+## 🎓 Lessons Learned
+This lab helped bridge the gap between GUI familiarity and underlying system control. I now feel more confident using Windows as a forensic environment and better understand the built-in tools defenders rely on.
 
----
-
-✅ Completed all modules and challenges via hands-on VMs and simulations.
+## ✅ Completion Status
+Completed via TryHackMe – Windows Fundamentals Modules 1–3
