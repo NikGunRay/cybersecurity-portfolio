@@ -70,4 +70,9 @@ Organized notes and commands by category:
 
 ---
 
-> This repo is constantly evolving — check back often for new labs, notes, and walkthroughs.
+## 🧪 Investigations & Threat Analysis
+
+- [Greenholt Phish Investigation](./greenholt-phish/README.md)  
+  *Analyzed a phishing email using header forensics, hash analysis, and email infrastructure validation.*
+
+  > This repo is constantly evolving — check back often for new labs, notes, and walkthroughs.
