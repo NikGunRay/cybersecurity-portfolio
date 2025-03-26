@@ -1,87 +1,53 @@
 # 🛠️ Security Tools & Notes
 
-This folder contains notes on security tools I’ve personally used or explored during hands-on labs, TryHackMe modules, and investigations. It's a living document and reflects tools relevant to my cybersecurity journey — especially as I transition from sales into a technical role.
+## 🧭 Objective
+Track the cybersecurity tools I’ve used or explored during labs, TryHackMe rooms, and real investigations. This living document reflects my technical transition from sales into cybersecurity and grows with my hands-on experience.
 
----
+## 🧪 Tools & Techniques Used
 
-## 🧪 Recon & Scanning
+### 🧪 Recon & Scanning
+| Tool     | Purpose                                          | Example                                 |
+|----------|--------------------------------------------------|-----------------------------------------|
+| Nmap     | Port scanning, OS detection, service enum        | `nmap -sV -A <target>`                  |
+| Netcat   | Manual connections, banner grabbing              | `nc -v <host> <port>`                   |
+| Whois    | Domain/IP ownership info                         | `whois <domain>`                        |
+| Dig      | DNS record queries                               | `dig @1.1.1.1 <domain>`                 |
 
-### 🔹 Nmap
-- **Purpose**: Port scanning, service enumeration, OS detection.
-- **Common Command**: `nmap -sV -A <target>`
+### ✉️ Email Phishing Analysis
+| Tool        | Use Case                                      |
+|-------------|-----------------------------------------------|
+| Thunderbird | View and analyze `.eml` files (headers, etc.) |
+| VirusTotal  | Analyze hashes, URLs                          |
+| MXToolbox   | Inspect SPF, DKIM, and DMARC configs          |
 
-### 🔹 Netcat
-- **Purpose**: Manual connections, banner grabbing, reverse shells.
-- **Example**: `nc -v <host> <port>`
+### 🪟 Windows Utilities
+- **MSConfig** – Boot config and troubleshooting
+- **Event Viewer** – View logs (logins, alerts)
+- **Task Manager / Resource Monitor** – Analyze performance and processes
 
-### 🔹 Whois
-- **Purpose**: Domain/IP ownership lookups (used in phishing analysis).
-- **Example**: `whois <domain>`
+### 🐧 Linux CLI Tools
+- `top` / `htop` – Live process monitoring
+- `netstat` / `ss` – View open ports and connections
+- `ip` / `ifconfig` – Check or configure network interfaces
 
-### 🔹 Dig
-- **Purpose**: DNS record querying and troubleshooting.
-- **Example**: `dig @1.1.1.1 <domain>`
+### 🌐 Web & HTTP Tools
+- `curl` – Manually craft HTTP(S) requests
+- **Browser Dev Tools** – Inspect headers, requests, and status codes
 
----
+## 📖 Analysis Summary
+These tools cover a wide range of blue team use cases — from investigating phishing emails and inspecting logs to conducting scans and investigating systems. I’ve prioritized mastering foundational, CLI-based tools I can build on.
 
-## 🔐 Email Phishing Analysis
+## 🧠 Skills Demonstrated
+- Comfort with multi-platform tools (Windows/Linux/Web)
+- DNS and email infrastructure analysis
+- Manual investigation techniques (vs black-box scanning)
+- Reconnaissance and enumeration workflows
 
-### 🔹 Thunderbird
-- **Used to**: Open and analyze `.eml` files (used in The Greenholt Phish investigation).
-- **Why**: Review headers, attachments, and body for phishing indicators.
+## 🧰 Real-World Application
+These are the tools defenders use every day — whether in a SOC, IR, or forensics role. Learning them by hand strengthens my ability to operate under pressure and pivot when automation fails.
 
-### 🔹 VirusTotal
-- **Purpose**: Check file hashes and URLs for known threats.
+## 🎓 Lessons Learned
+I now understand that it’s not about knowing every tool — it’s about knowing how and when to use the right one. This collection reflects my growing confidence and tactical awareness.
 
-### 🔹 MXToolbox
-- **Purpose**: Inspect SPF, DKIM, and DMARC records for phishing detection.
-
----
-
-## 🪟 Windows Tools
-
-### 🔹 MSConfig
-- Troubleshooting startup issues and boot configurations.
-
-### 🔹 Event Viewer
-- Viewing logs (login attempts, alerts, system events).
-
-### 🔹 Task Manager & Resource Monitor
-- Monitor system performance and running processes.
-
----
-
-## 🐧 Linux CLI Tools
-
-### 🔹 top / htop
-- Real-time process monitoring.
-
-### 🔹 netstat / ss
-- List network connections and open ports.
-
-### 🔹 ip / ifconfig
-- View or configure network interfaces.
-
----
-
-## 🌐 Web & HTTP
-
-### 🔹 Curl
-- Make manual HTTP/HTTPS requests.
-
-### 🔹 Browser Dev Tools
-- Inspect HTTP requests, status codes, and headers.
-
----
-
-## 🧠 Other Tools To Explore Later
-
-- 🕷 **Burp Suite** – Web application testing.
-- 🧪 **Wireshark** – Network packet analysis.
-- 💾 **Autopsy** – Digital forensics.
-- 🧰 **Sysinternals Suite** – Windows internals toolkit.
-- 🧙 **CyberChef** – Data transformation & decoding.
-
----
-
-> ⚡ This list will evolve as I gain deeper technical experience across red and blue team tools. Feel free to fork or reference.
+## ✅ Completion Status
+Ongoing — living document, updated as I learn.
