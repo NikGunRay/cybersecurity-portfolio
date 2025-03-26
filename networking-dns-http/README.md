@@ -1,34 +1,36 @@
 # 🌐 Networking, DNS, & HTTP Fundamentals (TryHackMe)
 
-This section of my portfolio captures essential networking concepts, particularly how DNS and HTTP operate and how they’re analyzed in a cybersecurity context.
+## 🧭 Objective
+Understand core networking principles and analyze how DNS and HTTP protocols function in real-world environments, with a focus on how they’re leveraged and misused in cybersecurity.
 
----
+## 🧪 Tools & Techniques Used
+- **Network CLI Tools**: `ping`, `tracert`, `ipconfig`, `ifconfig`
+- **DNS Utilities**: `nslookup`, `dig`, `host`
+- **Web Tools**: `curl`, browser developer tools
+- **Packet Analysis**: (lightweight inspection, not deep Wireshark)
 
-### 📡 Networking Essentials Covered:
+## 🔍 Key Topics Covered
+| Area                | Highlights                                                                 |
+|---------------------|---------------------------------------------------------------------------|
+| **Networking**       | OSI & TCP/IP models, packet structure, encapsulation, IP addressing       |
+| **DNS**             | A, AAAA, MX, CNAME, TXT, NS records; DNS resolution and spoofing tactics   |
+| **HTTP**            | Request/response structure, methods (GET/POST/etc), headers, cookies       |
 
-- Identified OSI and TCP/IP models and mapped protocols to each layer
-- Understood packet structure and data encapsulation
-- Used tools like `ping`, `tracert`, and `ipconfig/ifconfig` for troubleshooting
-- Analyzed IP addressing and subnetting basics
+## 📖 Analysis Summary
+- Mapped foundational network concepts to common cybersecurity tasks.
+- Explored how DNS can be both a lookup tool and an attack vector.
+- Practiced manual HTTP requests and response interpretation.
 
----
+## 🧠 Skills Demonstrated
+- Protocol-level understanding of DNS and HTTP
+- Command-line investigation of domains and endpoints
+- Manual traffic analysis using CLI and browser tools
 
-### 🌐 DNS Deep Dive:
+## 🧰 Real-World Application
+Cybersecurity professionals must understand how normal traffic behaves to detect abnormalities. These concepts are directly useful for phishing detection, malware C2 tracking, and network triage.
 
-- Investigated how domain names resolve to IP addresses
-- Explored DNS record types: A, AAAA, MX, CNAME, TXT, NS
-- Used `nslookup`, `dig`, and `host` for domain investigations
-- Identified DNS poisoning techniques and mitigation strategies
+## 🎓 Lessons Learned
+I learned how to move beyond passive reliance on tools and actively interrogate networks and web requests. It gave me a solid foundation for future packet capture and intrusion analysis work.
 
----
-
-### 🌍 HTTP Insights:
-
-- Broke down HTTP methods (GET, POST, PUT, DELETE)
-- Examined request/response structure including status codes, headers, cookies
-- Used `curl` and browser dev tools to analyze HTTP traffic
-- Understood common vulnerabilities like header manipulation, redirects, and insecure methods
-
----
-
-✅ All modules completed hands-on with practical exercises, simulations, and real-world examples.
+## ✅ Completion Status
+Completed via TryHackMe – Networking, DNS, and HTTP Modules
