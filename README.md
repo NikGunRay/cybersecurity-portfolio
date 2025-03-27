@@ -6,40 +6,62 @@ Hi, I’m Nik — a cybersecurity sales pro turned technical learner. This GitHu
 
 ## 🚨 Real-World Labs (TryHackMe, Capture-the-Flag, Practical Labs)
 
+### ✅ Active Directory Basics (TryHackMe)
+Built and managed OUs, delegated permissions, and configured GPOs for real-world use cases like password policies and session locking.  
+**Skills demonstrated**: Active Directory administration, PowerShell delegation, Kerberos vs. NTLM authentication, GPO deployment  
+[View Writeup](./Active%20Directory%20(TryHackMe)/README.md)
+
 ### ✅ Disgruntled IT Logic Bomb Investigation (Insider Threat | Linux Forensics)
-- Investigated a logic bomb planted by an insider on a corporate Linux system
-- Traced user command history, privilege escalation, and cron-triggered backdoor
-- Identified `bomb.sh` disguised as `/bin/os-update.sh` and scheduled via crontab
-- **Skills demonstrated:** Linux forensics, cron analysis, IOC extraction, insider threat detection
+Investigated a logic bomb planted by an insider on a corporate Linux system  
+Traced user command history, privilege escalation, and cron-triggered backdoor  
+Identified bomb.sh disguised as `/bin/os-update.sh` and scheduled via crontab  
+**Skills demonstrated**: Linux forensics, cron analysis, IOC extraction, insider threat detection  
+[View Writeup](./Logic-Bomb-Investigation/README.md)
 
 ### ✅ The Greenholt Phish (Phishing & Email Forensics)
-- Analyzed a suspicious email forwarded to the SOC team
-- Extracted email headers (Return-Path, SPF, DMARC, Origin IP)
-- Identified spoofed sender, mismatched reply-to, and suspicious file attachment
-- Used SHA256 hashes and Thunderbird to validate malicious payload
-- **Skills demonstrated:** phishing detection, header analysis, threat investigation
+Analyzed a suspicious email forwarded to the SOC team  
+Extracted email headers (Return-Path, SPF, DMARC, Origin IP)  
+Identified spoofed sender, mismatched reply-to, and suspicious file attachment  
+Used SHA256 hashes and Thunderbird to validate malicious payload  
+**Skills demonstrated**: phishing detection, header analysis, threat investigation  
+[View Writeup](./greenholt-phish/README.md)
+
+---
+
+## 🪟 Windows & AD Fundamentals
 
 ### ✅ Windows Fundamentals (1–3)
-- Navigated GUI elements, file system structure (NTFS), and system folders
-- Worked with System Configuration (msconfig), Task Manager, Registry Editor
-- Explored Windows Defender Firewall, UAC, BitLocker, and Event Logs
-- **Skills demonstrated:** system hardening, endpoint defense, privilege management
+Navigated GUI elements, file system structure (NTFS), and system folders  
+Worked with System Configuration, Task Manager, Registry Editor  
+Explored Windows Defender Firewall, UAC, BitLocker, and Event Logs  
+**Skills demonstrated**: system hardening, endpoint defense, privilege management  
+[View Writeup](./windows-fundamentals/README.md)
+
+---
+
+## 🐧 Linux Foundations
 
 ### ✅ Linux Fundamentals
-- Learned permissions, file structure, user management, and bash commands
-- Explored log files, scheduling tasks with cron, and system monitoring
-- **Skills demonstrated:** Linux CLI, hardening basics, log review
+Learned permissions, file structure, user management, and bash commands  
+Explored log files, scheduling tasks with cron, and system monitoring  
+**Skills demonstrated**: Linux CLI, hardening basics, log review  
+[View Writeup](./linux-basics/README.md)
+
+---
+
+## 🌐 Networking & Protocols
 
 ### ✅ Networking, DNS, HTTP & Web Protocols
-- Understood how DNS queries resolve and HTTP request lifecycles
-- Investigated packet-level data using tools like Wireshark and curl
-- **Skills demonstrated:** network fundamentals, protocol analysis, packet inspection
+Understood how DNS queries resolve and HTTP request lifecycles  
+Investigated packet-level data using tools like Wireshark and curl  
+**Skills demonstrated**: network fundamentals, protocol analysis, packet inspection  
+[View Writeup](./networking-dns-http/README.md)
 
 ---
 
 ## 🛠️ Tools & Notes
 
-Organized notes and commands by category:
+[tools-notes/](./tools-notes/) → Personal cheat sheets and command references organized by topic
 
 - 🔐 Email Security & Threat Intel  
 - 🪟 Windows Sysinternals & Logs  
@@ -54,44 +76,38 @@ Organized notes and commands by category:
 
 - Join a team that builds cool things and makes each other smarter in the process  
 - Keep leveling up through hands-on problem-solving across cloud, network, and endpoint security  
-- Join a team where I can contribute early, learn from experienced engineers, and grow into the kind of teammate others can count on.
+- Contribute early, learn from experienced engineers, and grow into the kind of teammate others can count on  
 
 ---
 
-## 📁 Structure
+## 📁 Folder Structure
 
-- `greenholt-phish/` → EML analysis & screenshots  
-- `logic-bomb-insider-threat/` → Forensic timeline & bash history reconstruction  
-- `windows-fundamentals/` → Notes from Windows 10/11 server labs  
-- `linux-basics/` → File structure, permissions, common commands  
-- `networking-dns-http/` → Protocol breakdowns, tools, notes  
-- `resume/` → PDF resume, project highlights, portfolio summary  
+- [greenholt-phish/](./greenholt-phish/) → EML analysis & screenshots  
+- [Logic-Bomb-Investigation/](./Logic-Bomb-Investigation/) → Forensic timeline & bash history reconstruction  
+- [Active Directory (TryHackMe)/](./Active%20Directory%20(TryHackMe)/) → OUs, delegation, GPOs  
+- [windows-fundamentals/](./windows-fundamentals/) → Windows 10/11 labs  
+- [linux-basics/](./linux-basics/) → File structure, permissions, common commands  
+- [networking-dns-http/](./networking-dns-http/) → Protocol breakdowns and tools  
+- [tools-notes/](./tools-notes/) → Quick-reference notes and commands  
+- [resume/](./resume/) → PDF resume, project highlights, and technical transition summary  
 
 ---
 
 ## 🤝 About Me
 
-- 11+ years in cybersecurity sales, now going full throttle into my true love- technical security
-- Strength: breaking down complex topics into clear, actionable solutions
-- Passionate about cyber — driven by curiosity, continuous learning, and real-world application
-- Focused on joining the ranks of the engineers I've had the pleasure to learn and work with
+11+ years in cybersecurity sales, now going full throttle into my true love — technical security  
+Strength: breaking down complex topics into clear, actionable solutions  
+Passionate about cyber — driven by curiosity, continuous learning, and real-world application  
+Focused on joining the ranks of the engineers I've had the pleasure to learn and work with  
 
 ---
 
 ## 🔗 Connect
 
-- [LinkedIn](https://www.linkedin.com/in/nik-g-8a246170/)
-- [GitHub](https://github.com/NikGunRay)
-- `resume/` folder now live!
+- [LinkedIn](https://www.linkedin.com/in/nik-g-8a246170)  
+- [GitHub](https://github.com/NikGunRay)  
+- [Resume Folder](./resume/)
 
 ---
 
-## 🧪 Investigations & Threat Analysis
-
-- [Greenholt Phish Investigation](./greenholt-phish/README.md)  
-  *Phishing forensics using headers, origin tracing, and payload analysis*
-
-- [Disgruntled IT Logic Bomb](./logic-bomb-insider-threat/README.md)  
-  *Insider threat detection via bash history, cron job review, and script forensics*
-
-> This portfolio is constantly evolving — check back often for new labs, notes, and walkthroughs.
+This portfolio is constantly evolving — check back often for new labs, notes, and walkthroughs.
