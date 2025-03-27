@@ -9,7 +9,7 @@ Hi, I’m Nik — a cybersecurity sales pro turned technical learner. This GitHu
 ### ✅ Active Directory Basics (TryHackMe)
 Built and managed OUs, delegated permissions, and configured GPOs for real-world use cases like password policies and session locking.  
 **Skills demonstrated**: Active Directory administration, PowerShell delegation, Kerberos vs. NTLM authentication, GPO deployment  
-[View Writeup](./Active%20Directory%20(TryHackMe)/README.md)
+[View Writeup](./Active%20Directory%20%28TryHackMe%29/README.md)
 
 ### ✅ Disgruntled IT Logic Bomb Investigation (Insider Threat | Linux Forensics)
 Investigated a logic bomb planted by an insider on a corporate Linux system  
@@ -84,7 +84,7 @@ Investigated packet-level data using tools like Wireshark and curl
 
 - [greenholt-phish/](./greenholt-phish/) → EML analysis & screenshots  
 - [Logic-Bomb-Investigation/](./Logic-Bomb-Investigation/) → Forensic timeline & bash history reconstruction  
-- [Active Directory (TryHackMe)/](./Active%20Directory%20(TryHackMe)/) → OUs, delegation, GPOs  
+- [Active Directory (TryHackMe)/](./Active%20Directory%20%28TryHackMe%29/) → OUs, delegation, GPOs  
 - [windows-fundamentals/](./windows-fundamentals/) → Windows 10/11 labs  
 - [linux-basics/](./linux-basics/) → File structure, permissions, common commands  
 - [networking-dns-http/](./networking-dns-http/) → Protocol breakdowns and tools  
