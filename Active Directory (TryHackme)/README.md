@@ -1,4 +1,4 @@
-# ■ Active Directory Basics (TryHackMe)
+# ■ Active Directory Basics 
 
 ## ■ Objective  
 This room introduced the core components of Active Directory and how it's used to manage users, computers, and security policies in enterprise Windows environments. The goal was to get hands-on experience with domain structures, user/computer objects, OUs, delegation, and GPOs.
