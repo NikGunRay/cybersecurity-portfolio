@@ -47,6 +47,13 @@ Explored log files, scheduling tasks with cron, and system monitoring
 **Skills demonstrated**: Linux CLI, hardening basics, log review  
 [View Writeup](./linux-basics/README.md)
 
+### ✅ Linux Shells & Scripting (TryHackMe)
+Practiced working in Bash, built shell scripts using variables, loops, and conditionals  
+Modified a flawed script to locate a hidden flag in system log files  
+**Skills demonstrated**: bash scripting, grep usage, wildcard logic, script debugging  
+[View Writeup](./Linux-Shells-And-Scripting/README.md)
+
+
 ---
 
 ## 🌐 Networking & Protocols
