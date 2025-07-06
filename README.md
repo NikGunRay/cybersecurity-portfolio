@@ -1,6 +1,6 @@
 # 🛡️ Nik Gray – Cybersecurity Portfolio
 
-Hi, I’m Nik — a cybersecurity sales pro turned technical learner. This GitHub is a living portfolio where I document hands-on experience across key cybersecurity domains like email security, phishing forensics, Linux and Windows hardening, SOC-style analysis, and insider threat response.
+Hi, I’m Nik, a cybersecurity sales pro turned technical learner. This GitHub is a living portfolio where I document hands-on experience across key cybersecurity domains like email security, phishing forensics, Linux and Windows hardening, SOC-style analysis, and insider threat response.
 
 ---
 
@@ -102,7 +102,7 @@ Investigated packet-level data using tools like Wireshark and curl
 
 ## 🤝 About Me
 
-11+ years in cybersecurity sales, now going full throttle into my true love — technical security  
+11+ years in cybersecurity sales, now going full throttle into my true love- technical security  
 Strength: breaking down complex topics into clear, actionable solutions  
 Passionate about cyber — driven by curiosity, continuous learning, and real-world application  
 Focused on joining the ranks of the engineers I've had the pleasure to learn and work with  
