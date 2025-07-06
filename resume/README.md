@@ -1,4 +1,4 @@
-Nik Gray — Cybersecurity Portfolio Resume (GitHub-Safe Version)
+Nik Gray — Cybersecurity Portfolio Resume 
 
 Hybrid cybersecurity professional with 11+ years in enterprise sales and hands-on technical training. 
 Closes fast, lands and expands, and turns product feedback into roadmap action. Has owned deals, triaged 
